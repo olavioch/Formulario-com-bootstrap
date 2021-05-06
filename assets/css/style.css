@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ff7;
+    font-family: 'Calibri';
+    text-align: center;
+
+}
+.area{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-inline: 20px;
+}
+img{
+    width: inherit;
+    height: 70px;
+}
+.h4{
+    margin-top: 10px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.form-control{
+    margin-top: 10px;
+}
+.remenber, p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
