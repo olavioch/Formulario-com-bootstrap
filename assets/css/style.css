@@ -9,7 +9,7 @@ body{
     text-align: center;
 
 }
-.area{
+.area, .area-costa{
     max-width: 350px;
     width: 100%;
     height: auto;
@@ -19,8 +19,9 @@ body{
     padding-top: 60px;
     padding-bottom: 40px;
     padding-inline: 20px;
+    transition: opacity 3s;
 }
-img{
+#rotation img{
     width: inherit;
     height: 70px;
 }
@@ -33,6 +34,32 @@ img{
     margin-top: 10px;
 }
 .remenber, p{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+}
+#rotation{
+    transition: transform 3s ;
+}
+
+#area-costa{
+    transition: opacity 2s;
+    position: absolute;
+    top: -40px;
+    transform: rotateY(180deg)
+}
+#help{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    padding: 8px;
+    border-radius: 100%;
+
+}
+#help img{
+    width:40px;
+    height: 40px;
+}
+#help:hover{
+    background-color: #0069da;
 }
